@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="es.diusframi.orionlogisticsmobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.hardware.localitation.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.hardware.localitation.gps"
+        android:required="false" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:name=".OrionLogisticsMobile"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".ui.scanner.ScannerActivity"
+            android:theme="@style/LoginOrionTheme" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginOrionTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:excludeFromRecents="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginOrionTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OrionTheme" />
+        <activity
+            android:name=".ui.ubicarUL.UbicarULActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OrionTheme" />
+        <activity
+            android:name=".ui.ubicarUL.UbicarULDetalleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OrionTheme" />
+        <activity
+            android:name=".ui.movimientoUL.MovimientoULActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OrionTheme" />
+        <activity
+            android:name=".ui.movimientoUL.MovimientoULDetalleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OrionTheme" />
+        <activity
+            android:name=".ui.movimientoUL.MovimientoEquiposActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OrionTheme" />
+        <activity
+            android:name=".ui.utilitiesViews.DetalleEquiposActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OrionTheme" />
+        <activity
+            android:name=".ui.utilitiesViews.ConfigurationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OrionTheme" />
+    </application>
+
+</manifest>

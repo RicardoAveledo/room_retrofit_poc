@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.movimientoUL.MovimientoULActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="298dp"
+            android:layout_height="64dp"
+            android:gravity="left"
+            android:lines="4"
+            android:maxLines="4"
+            android:text="Por favor, introduzca o escanee el código del cesto o caja que va a ubicar:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextCode"
+            android:layout_width="234dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:imeOptions="actionDone"
+            android:ems="10"
+            android:hint="Código de cesto o caja"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="295dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/amarillo_configuracion"
+            android:text="Validar"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/almacenesSpinner"
+            app:layout_constraintTop_toBottomOf="@+id/almacenesSpinner" />
+
+        <TextView
+            android:id="@+id/textTitleUbicacion"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Almacén Origen"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/editTextCode"
+            app:layout_constraintTop_toBottomOf="@+id/scanButton">
+
+        </TextView>
+
+        <Spinner
+            android:id="@+id/almacenesSpinner"
+            android:layout_width="295dp"
+            android:layout_height="57dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/editTextCode"
+            app:layout_constraintTop_toBottomOf="@+id/textTitleUbicacion">
+
+        </Spinner>
+
+        <ImageView
+            android:id="@+id/scanButton"
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/boton_azul"
+            android:cropToPadding="true"
+            android:drawablePadding="@dimen/activity_bottom_margin"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_buscar_qr_blanco"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextCode"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/editTextCode"
+            app:layout_constraintTop_toTopOf="@+id/editTextCode" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

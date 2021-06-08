@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diusframi Orion Logistics</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_logout">Encerrar sessao</string>
+    <string name="Cargando">Carregando…</string>
+
+    <!-- Pestañas de la lista de trabajos pendientes -->
+    <string name="Recibidos">Recebidos</string>
+    <string name="Visualizados">Vizualizados</string>
+    <string name="Encurso">Em curso</string>
+    <string name="Finalizados">Finalizados</string>
+    <string name="OrganizarRuta">Organizar rota</string>
+
+    <!-- Pestañas de la del detalle de trabajos pendientes -->
+    <string name="Aviso">Aviso</string>
+    <string name="Comercio">Estabelecimento comercial</string>
+    <string name="Equipo">Equipamento</string>
+    <string name="Cierre">Feche</string>
+    <string name="Reasignar">Redesignar</string>
+    <string name="Instalado">Instalado</string>
+    <string name="Finalizado">Finalizar</string>
+    <string name="Fotos">Fotos</string>
+    <string name="Encuesta">Pesquisa</string>
+    <string name="Firma">Assinatura</string>
+    <string name="VidaDigital">VidaDigital</string>
+
+    <!-- Detalle de Avisos de trabajos pendientes -->
+    <string name="DetalleAviso">Detalhe aviso</string>
+    <string name="Trabajo">Trabalho</string>
+    <string name="Cliente">Cliente</string>
+    <string name="NumAveria">Nº Avaría</string>
+    <string name="CodigoError">Codigo erro</string>
+    <string name="Incidencia">Incidência</string>
+    <string name="Entrada">Entrada</string>
+    <string name="NumeroParte">Nº OS</string>
+    <string name="Limite">Limite</string>
+    <string name="NombreComercio">Nome estabelecimento comercial</string>
+    <string name="Material">Material</string>
+    <string name="ValorCliente">Valor cliente</string>
+    <string name="ValorTrabajo">Valor trabalho</string>
+    <string name="ValorLimite">Valor limite</string>
+    <string name="ValorNumAveria">Valor Núm. Avaria</string>
+    <string name="ValorCodigoError">Valor Código Erro</string>
+    <string name="ValorIncidencia">Valor incidencia</string>
+    <string name="ValorEntrada">Valor entrada</string>
+    <string name="ValorNParte">Valor Nº OS</string>
+
+    <!-- Detalle de Comercio de trabajos pendientes -->
+    <string name="DetalleComercio">Detalhe comércio</string>
+    <string name="FUC">FUC</string>
+    <string name="Nombre">Nome </string>
+    <string name="Direccion">Endereco</string>
+    <string name="Localidad">Localidade</string>
+    <string name="CodigoPostal">CEP</string>
+    <string name="Provincia">Cidade</string>
+    <string name="Horario">Horário</string>
+    <string name="Contacto">Contato</string>
+    <string name="ValorFUC">Valor FUC</string>
+    <string name="ValorCompania">Valor companhia</string>
+    <string name="ValorNombre">Valor nome</string>
+    <string name="ValorDireccion">Valor endereco</string>
+    <string name="ValorLocalidad">Valor localidade</string>
+    <string name="ValorCP">Valor CEP</string>
+    <string name="ValorProvincia">Valor cidade</string>
+    <string name="ValorHorario">Valor horário</string>
+    <string name="ValorContacto">Valor contato</string>
+    <string name="Map">Mapa</string>
+
+    <!-- Detalle de Equipo de trabajos pendientes -->
+    <string name="DetalleEquipo">Detalhe equipamento</string>
+    <string name="CodigoTPV">Codigo POS</string>
+    <string name="Modelo">Modelo</string>
+    <string name="NumeroSerie">Número de Série</string>
+
+    <string name="PalabraPaso">Palavra de acesso</string>
+    <string name="EnComercio">On estabelecimento comercial</string>
+    <string name="AInstalar">A instalar</string>
+    <string name="ValorCodigoTPV">Valor code POS</string>
+    <string name="ValorModelo">Valor Modelo</string>
+    <string name="ValorNumeroSerie">Valor Número de Série</string>
+    <string name="ValorPalabraPaso">Valor palavra de acesso</string>
+
+    <!-- Vida digital -->
+    <string name="VidaDigitalTitle">Vida Digital</string>
+    <string name="preguntaVidaDigital">O comércio está interessado em receber mais informações sobre o produto VIDA DIGITAL?</string>
+    <string name="contacto_VD">Pessoa de contato*</string>
+    <string name="telefono1_VD">Telefone de contato 1*</string>
+    <string name="telefono2_VD">Telefone de contato 2</string>
+    <string name="mail_VD">E-mail de contato*</string>
+    <string name="tipoComercio_VD">Tipo de comércio*</string>
+    <string name="observaciones_VD">Observações</string>
+    <string name="seleccione_VD">Selecione</string>
+    <string name="porqueNo_VD">Por que o produto não interessa? *</string>
+
+    <!-- Detalle de Instalado de trabajos pendientes -->
+    <string name="DetalleInstalado">Detalhe instalado</string>
+    <string name="Agregar">Adicionar</string>
+    <string name="MaterialInstalado">Material Instalado</string>
+    <string name="Complementos">Complementos</string>
+
+    <!-- Detalle Retirar de trabajos pendientes -->
+    <string name="DetalleRetirar">Detalhe retirar</string>
+    <string name="NumeroARetirar">Número a Retirar</string>
+    <string name="Retirar">Retirar</string>
+    <string name="ValorNumeroRetirar">Valor Número a retirar</string>
+    <string name="NumeroSerieNoCoincide">O número de série não tem o tamanho correto.</string>
+
+    <!-- Detalle Fin de trabajos pendientes -->
+    <string name="DetalleFin">Detalhe Fim</string>
+    <string name="FinOK">OK</string>
+    <string name="FinVF">VF</string>
+    <string name="AveriaDetectada">Avaria Detetada</string>
+    <string name="Motivo">Motivo</string>
+    <string name="seleccione_averia">SELECIONAR FAULT</string>
+    <string name="seleccione_motivo">ESCOLHER RAZÃO</string>
+    <string name="Incidencias">Incidências</string>
+    <string name="Observaciones">Observações</string>
+    <string name="NumeroFax">Número de Fax</string>
+    <string name="Email">Email</string>
+
+    <!-- Pagina inicio de la aplicacion -->
+    <string name="PartesRecibidos">OSs Recebidos</string>5
+    <string name="PartesCurso">OSs Em curso</string>
+    <string name="PartesRechazados">OSs Rejeitadas</string>
+    <string name="EntradasAlmacen">Entradas Em armazem</string>
+    <string name="SalidasAlmacen">Saidas Do armazem</string>
+    <string name="RutaDiaria">Rota Diária</string>
+
+    <!-- Detalle Encuesta de trabajos pendientes -->
+    <string name="DetalleEncuesta">Detalhe questionário</string>
+    <string name="SinEncuesta">Nenhuma pesquisa</string>
+    <string name="SI">SIM</string>
+    <string name="NO">NÂO</string>
+    <string name="SIMInstalada">SIM Instalada</string>
+    <string name="CoberturaMovistar">Cobertura TIM</string>
+    <string name="CoberturaVodafone">Cobertura Claro</string>
+    <string name="CoberturaOrange">Cobertura OI/Vivo</string>
+
+    <!-- Frame de fotos -->
+    <string name="ErrorNoFotos">Erro. Não é possível fazer fotos</string>
+    <string name="SUPERADOTOPEFOTO">Chegou ao limite de fotos</string>
+    <string name="BORRARFOTO">Deseja apagar a foto?</string>
+    <string name="ENCENDER_GPS">DDeve ativar GPS</string>
+
+    <!-- Para firmas -->
+    <string name="Firmar">Assinar</string>
+    <string name="Fdo">Fdo.:</string>
+
+    <!-- Para Reasignar -->
+    <string name="SinTecnicos1">Não e possível redesignar.</string>
+    <string name="SinTecnicos2">Não tem tecnicos dependentes.</string>
+    <string name="ERROR">ERRO</string>
+    <string name="AVISO">AVISO</string>
+
+    <!-- Para menú -->
+    <string name="Comenzar">INICIO</string>
+	<string name="EnCamino">NO MEU CAMINHO</string>
+    <string name="Enviar">ENVIAR</string>
+    <string name="BorrarLinea">Deseja apagar a linha?</string>
+    <string name="ErrorInsertarMaterial">Erro inserindo material. Não é gravado</string>
+    <string name="Borrar">Apagar</string>
+    <string name="Aceptar">Aceitar</string>
+    <string name="Version">Versão: %1$s (%2$d) %3$s</string>
+
+    <!-- layout de Resoluciones -->
+    <string name="Averia">Avaria</string>
+
+    <!-- layout de técnicos (para las reasignaciones) -->
+    <string name="NombreTecnico">Nome técnico</string>
+
+    <!-- Menú de organizar rutas -->
+    <string name="Ordenar">Ordenar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="ReordenarTodos">Deve marcar todas as OSs para poder reordenar a rota</string>
+
+    <!-- Almacén pestañas -->
+    <string name="title_activity_almacen">Almacen</string>
+    <string name="PEntradasAlmacen">Entradas</string>
+    <string name="PSalidasAlmacen">Saídas</string>
+    <string name="PMaterialAlmacen">Material</string>
+    <string name="PNuevaSalidaAlmacen">Nova saída</string>
+
+    <!-- Almacén  menú -->
+    <string name="Opciones">Opções</string>
+    <string name="menuAlmacenHacerTodo">Fazer tudo</string>
+    <string name="menuAlmacenRecuperarStock">Recuperar estoque</string>
+
+    <!-- Fragmento BusquedaFragment dentro de Almacen (AlmacenB, la B de busqueda) -->
+    <string name="AlmacenBBusqueda">Pesquisa</string>
+    <string name="AlmacenBNumeroSerie">Número de série</string>
+    <string name="AlmacenBBuscar">Procurar</string>
+    <string name="AlmacenBAlbaran">Romaneio</string>
+    <string name="AlmacenBFecha">Data</string>
+    <string name="AlmacenBCliente">Cliente</string>
+    <string name="AlmacenBCodModelo">Código Modelo</string>
+    <string name="AlmacenBModelo">Modelo</string>
+    <string name="MaterialNoExiste">Material não existe</string>
+
+    <!-- Fragmento Materiales en Almacen -->
+    <string name="AlmacenMatNumSerie">Num. Série</string>
+    <string name="AlmacenMatCodModelo">Cod. Modelo</string>
+    <string name="AlmacenMatModelo">Modelo</string>
+    <string name="AlmacenMatCliente">Cliente</string>
+    <string name="AlmacenMatEstado">Estado</string>
+    <string name="AlmacenMatTipoStock">Tipo de estoque</string>
+    <string name="AlmacenMatAlbaran">Romaneio</string>
+    <string name="AlmacenMatFecha">Data</string>
+    <string name="AlmacenMatAlmacen">Armazém</string>
+
+    <!-- Fragmento Nueva Salida en Almacen -->
+    <string name="AlmacenNSEnviar">Enviar romaneio</string>
+    <string name="AlmacenNuevoAlbaranSalida">Novo romaneio de saida</string>
+    <string name="AlmacenNuevoAlbaranErrorAceptarSalida">"Falha ao aceitar a nota de retirada "</string>
+    <string name="AlmacenNuevoAlbaranErrorRechazarSalida">"Falha ao rejeitar a nota de retirada "</string>
+    <string name="AlmacenNSNumeroSerie">Material</string>
+
+    <!-- Fragmento Entradas en Almacen -->
+    <string name="AlmacenFecha">Data</string>
+    <string name="AlmacenAlbaran">Romaneio</string>
+    <string name="AlmacenAlbaranErrorAceptarEntrada">Falha ao aceitar o recibo</string>
+    <string name="AlmacenAlbaranErrorRechazarEntrada">Falha ao rejeitar o recibo </string>
+    <string name="AlmacenAlmacen">Armazém</string>
+    <string name="AlmacenValidar">Validar</string>
+    <string name="AlmacenRechazar">Recusar</string>
+    <string name="AlmacenDesmarcar">Desmarcar</string>
+    <string name="AlmacenVerDatos">Ver Datos</string>
+    <string name="NSBORRARMATERIAL">Está seguro em apagar a linha?</string>
+
+    <!-- para los botones con imágenes -->
+    <string name="CapturarCB">Capturar Código de Barras</string>
+    <string name="SacarFoto">Tirar foto</string>
+    <string name="borrarFoto">Apagar foto</string>
+    <string name="AvanzarFoto">Foto seguinte </string>
+    <string name="RetrocederFoto">Foto anterior</string>
+    <string name="ImagenFoto">Foto</string>
+
+    <!-- menú verdatos -->
+    <string name="menuverdatosAceptar">Aceitar</string>
+    <string name="menuverdatosRechazar">Recusar</string>
+    <string name="title_activity_verdatos">Dados romaneio</string>
+    <string name="AlmacenVDAlbaran">Romaneio</string>
+    <string name="AlmacenVDAlmacen">Armazém</string>
+    <string name="VDCliente">Cliente</string>
+    <string name="VDCodModelo">Cod. Modelo</string>
+    <string name="VDModelo">Modelo</string>
+    <string name="VDTipoStock">Tipo estoque</string>
+    <string name="VDEstado">Estado</string>
+
+    <!-- Hoja de ruta -->
+    <string name="title_activity_hojaruta"> Folha de rota</string>
+    <string name="HREnviar">Enviar</string>
+    <string name="HRBuscar">Procurar Oss</string>
+    <string name="tvHRDia">Día:</string>
+    <string name="tvHRKmSalida">Km.Saida:</string>
+    <string name="tvHRLugarS">Local de saida:</string>
+    <string name="tvHRKmLlegada">Km.Chegada:</string>
+    <string name="tvHRLugarL">Local de chegada:</string>
+    <string name="tvHRConcepto">Concepto:</string>
+    <string name="tvHRMatricula">Matrícula:</string>
+    <string name="tvHRTarjeta">Cartão de combustivel</string>
+    <string name="tvHRImporte">Valor</string>
+    <string name="HRAdd">Adicionar</string>
+    <string name="Concepto">Conceito</string>
+    <string name="IMPORTEINCORRECTO">Erro nos dados do valor. Por favor, verifica-lo</string>
+    <string name="ELIJACONCEPTO">Deve indicar conceito para os gastos</string>
+    <string name="LSALIDA_OBLIGATORIO">Deve escolher local de saída</string>
+    <string name="LLLEGADA_OBLIGATORIO">Deve escolher local de chegada</string>
+    <string name="CambioFecha">Foi alterado o dia. Isto irá apagar os dados anteriores que não haviam sido enviados. Você tem certeza?</string>
+
+    <!-- Configuracion -->
+    <string name="title_activity_config">Configurações</string>
+    <string name="menu_config">Configurar</string>
+    <string name="PERIODO_SINCRONIZACION">Período de sincronização</string>
+    <string name="NMAX_FOTOS">Máx fotos permitidas</string>
+    <string name="IDIOMAS">Idioma seleccionado</string>
+    <string name="UnidadNegocio">Unidade de negócios selecionada</string>
+    <string name="error_PERIODO_SINCRONIZACION">O período de sincronização devem estar entre os valores 5 a 30 inclusive</string>
+    <string name="error_NMAX_FOTOS">O número máximo de fotos devem ter valores entre 100 e 300 inclusive</string>
+    <string name="datos_de_contacto">Dados de Contato</string>
+    <string name="email_title">E-mail:</string>
+    <string name="email_hint">Indique e-mail</string>
+    <string name="telefono_title">Teléfono:</string>
+    <string name="telefono_hint">Indique teléfono</string>
+
+    <!-- Partes - Order y filter -->
+    <string name="filter_by">Pesquisar por</string>
+    <string name="filter_Locality">Localidade</string>
+    <string name="filter_CP">CEP</string>
+    <string name="filter_Trabajo">Trabalho</string>
+    <string name="filter_Client">Cliente</string>
+    <string name="filter_TiempoLimite">Data limite dd/mm</string>
+
+    <!-- Disclaimers -->
+    <string name="disclaimer_id_retired_material_repeated">Este equipamento já está na lista de material removido</string>
+    <string name="disclaimer_select_Model">Deve selecionar o model a retirar</string>
+    <string name="disclaimer_select_Communication">Deve selecionar um tipo de conexão</string>
+    <string name="Communitation">Tipo de conexão</string>
+
+    <!-- Languages -->
+    <string name="Espanol">Espanhol</string>
+    <string name="Ingles">Inglês</string>
+    <string name="Portugues">Português</string>
+
+    <!-- Others -->
+    <string name="calendar">Calendario</string>
+    <string name="EncuestaDinamica">Enquete 2</string>
+    <string name="GrabarEcuensta">Gravar enquete</string>
+    <string name="RequiereObservaciones">Requer Observações</string>
+    <string name="ObservacionesIncompleto">Por favor, preencha todos levantamento necessário (incluindo as observações necessárias).</string>
+    <string name="Si">Sim</string>
+    <string name="No">Não</string>
+    <string name="ComenzarCierre">Começar Feche</string>
+    <string name="ActualizarTablas">Atualização interna em curso\nEsta operação pode demorar uns minutos</string>
+    <string name="ObsPredefinidas">Observações predefinidas</string>
+    <string name="IncidenciaPredefinidas">Incidências predefinidas</string>
+    <string name="Buscando_UN">Procurando unidades de negócio …</string>
+    <string name="No_UN">Não existe unidades de negócio</string>
+    <string name="Telefono">Telefone</string>
+
+    <!-- Antiguas -->
+    <string name="FinParteQuestion">Tens a certeza de finalizar a parte?</string>
+    <string name="ChooseResolucion">Você deve selecionar um tipo de resolução</string>
+    <string name="StartParte">Tem certeza que deseja iniciar esta parte?</string>
+    <string name="ServeBusy">Neste momento você está acessando o servidor, você não pode começar a festa. Esperar para o fim da comunicação para tentar novamente</string>
+    <string name="ManualUpdate">Lançando sincronização manual&#8230;</string>
+    <string name="Logout">¿Está seguro de cerrar la sesión?</string>
+    <string name="WarehouserUpdateError">Error al recibir almacén: </string>
+    <string name="Calendario">Calendario</string>
+    <string name="ErrorCloseDispatch">El cierre/envío requiere información del parte en los siguientes campos: </string>
+    <string name="CooperaNegocio">O negócio coopera?</string>
+    <string name="CerrarParte">Debe comenzar el cierre para poder enviar el parte</string>
+
+    <!-- Nuevos mensajes para la nueva comunicación "enCamino" -->
+    <string name="StartEnCamino">Atualmente prepara-se para atender a este aviso, favor confirmar</string>
+    <string name="AvisoAsignado">Notificação concluída com êxito</string>
+
+    <!-- ASL 03/07 -->
+    <string name="ValorHorarioContacto">Valor Horário  Contato</string>
+    <string name="ValorComplemento">Valor Complemento</string>
+    <string name="ValorNombreRotulo">Valor Nome Rótulo</string>
+    <string name="HorarioContacto">Horarío de Contato</string>
+    <string name="EmailDetalleComercio">E-mail</string>
+    <string name="Complemento">Acessório</string>
+    <string name="NombreRotulo">Nome Rótulo</string>
+    <string name="Telefonos">Telefones</string>
+    <string name="ValorEmail">Valor E-mail</string>
+    <string name="filter_NumeroParte">Num. Formulário</string>
+
+    <string name="SincronizacionEjecutada">Sincronização executada</string>
+    <string name="HayPartesNuevos">Há novas OSs</string>
+    <string name="TocaParaAccederApp">Toque para acessar o aplicativo</string>
+    <string name="AlmacenBEscaner">Digitalização</string>
+    <string name="AnadiGastos">Adicionar despesas</string>
+    <string name="BotonIncidencia">Incidências</string>
+    <string name="BotonLlamada">Chamada</string>
+    <string name="BotonTelefonos">Telefone úteis</string>
+    <string name="PMistockAlmacen">Meu estoque</string>
+    <string name="activity_Llamadas">Chamada</string>
+    <string name="activity_enviar_foto">Enviar foto</string>
+    <string name="activity_incidencias">Incidências</string>
+    <string name="aviso_descarga">Você está usando a conexão de dados em vez de documento Wi-Fi access.The pode levar até 30MB. Continuar?</string>
+    <string name="avisos_sla">Avisos SLA</string>
+    <string name="buscarDocumentos">Pesquisar em títulos de documento</string>
+    <string name="buscarMensajes">Mensagens de texto de pesquisa</string>
+    <string name="buscar_minimo">Não há nenhuma palavra para pesquisa&#8230;</string>
+    <string name="busqueda_aplicar_filtros">Aplicar filtros</string>
+    <string name="busqueda_aplicar_ver_filtros">Ver filtros</string>
+    <string name="busqueda_buscar">Pesquisa</string>
+    <string name="busqueda_editar_estados">Editar estados</string>
+    <string name="busqueda_editar_estados_texto">A partir daí você pode alterar o status dos computadores que são permitidos.</string>
+    <string name="busqueda_escribir_numero_serie">Escrever um número de série</string>
+    <string name="busqueda_estados">Estado</string>
+    <string name="busqueda_familia">Famílias</string>
+    <string name="busqueda_filtros">Filtros</string>
+    <string name="busqueda_modelo">Modelo</string>
+    <string name="busqueda_no_hay">Não há resultados</string>
+    <string name="busqueda_no_tracking">Nenhum seguimento</string>
+    <string name="busqueda_resultado">Resultados totais:</string>
+    <string name="busqueda_tecnologia">Tecnologia</string>
+    <string name="busqueda_todos">Todos&#8230;</string>
+    <string name="busqueda_total">Total</string>
+    <string name="busqueda_variante">Variante</string>
+    <string name="camera">Câmera</string>
+    <string name="color_caducado">Parte expired</string>
+    <string name="color_cuidado">Parte expira em menos de 4 horas</string>
+    <string name="color_libre">Tempo do parte (superior a 4 horas)</string>
+    <string name="color_picker_default_title">Escolha uma cor</string>
+    <string name="colores">cores</string>
+    <string name="calendarioAjustes">Sincronizar compromissos no calendário do meu dispositivo</string>
+    <string name="colores_titulo">Você pode personalizar as cores das peças de trabalho.</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="confirmar_envio">Tem certeza de que deseja confirmar a expedição?</string>
+    <string name="de">de</string>
+    <string name="descargado">Descarregado</string>
+    <string name="descargando">documento de descarga</string>
+    <string name="editar_estados1">Editar estados</string>
+    <string name="editar_estados2">Estado de edição</string>
+    <string name="enviando">Enviando&#8230;</string>
+    <string name="enviar_ficheros_log">Enviar arquivos de LOG</string>
+    <string name="enviar_ficheros_log_no">Sem arquivos criados.</string>
+    <string name="envio_no">Falha ao enviar</string>
+    <string name="envio_ok">Enviada com sucesso</string>
+    <string name="equipos_seleccionados">equipamento seleccionado</string>
+    <string name="equipos_seleccionados_no">Não há equipes selecionadas</string>
+    <string name="filtros">Etiquetas</string>
+    <string name="galery">Galeria</string>
+    <string name="gasto">Gastos</string>
+    <string name="grupo_diusframi">Grupo Diusframi</string>
+    <string name="lista_gastos">Lista de despesas</string>
+    <string name="lista_gastos_no">Você não tem despesas</string>
+    <string name="minutos2">min</string>
+    <string name="mostrar_agrupados1">Mensagens Mostrar notificações agrupadas</string>
+    <string name="mostrar_agrupados2">Mostrar notificações de conformidade / aviso SLA agrupados</string>
+    <string name="noHayDatos">Não há dados.</string>
+    <string name="no_hay_partes">Sem peças</string>
+    <string name="notificaciones">Notificações</string>
+    <string name="orion_mobile">Orion Mobile</string>
+    <string name="parte_en_curso">Parte em curso</string>
+    <string name="parte_finalizado">Parte finalizado</string>
+    <string name="parte_rechazado">Parte rejeitada</string>
+    <string name="parte_trabajo">Parte de trabalho</string>
+    <string name="parte_visto">Parte visto</string>
+    <string name="partes">Partes</string>
+    <string name="pref_config">Selecionador de cores</string>
+    <string name="salida_almacen">*Loja</string>
+    <string name="salida_almacen_seleccionar">Escolha&#8230;</string>
+    <string name="salida_aviso1">Você não selecionou uma equipe. Por favor, revise a lista de material.</string>
+    <string name="salida_aviso2">Não selecionou qualquer loja. Por favor verifique a gota de armazenamento.</string>
+    <string name="salida_aviso3">Não selecionou qualquer operadora. Por favor, verifique a transportadora drop-down.</string>
+    <string name="salida_aviso3b">Por favor, verifique a transportadora</string>
+    <string name="salida_boton1">Reposição de material / desinstalado 06</string>
+    <string name="salida_boton2">Material personalizado</string>
+    <string name="salida_configura_envio">Configure o seu transporte</string>
+    <string name="salida_resumen_envio">Envio de resumo</string>
+    <string name="salida_texto">Clique nos botões para gerar novo material de saída. \n\n<b>1)</b> Os equipamentos de tipo automaticamente substituído / desinstalado 06. \n\n<b>2)</b> forma personalizada toda a equipe usando a pesquisa, digitalização e filtros.</string>
+    <string name="salida_tracking">Tracking</string>
+    <string name="salida_tracking_opcional">(Opcional) Número de tracking</string>
+    <string name="salida_transportista">Operadora*</string>
+    <string name="salida_transportista_seleccionar">Escolha&#8230;</string>
+    <string name="seguridad">Segurança</string>
+    <string name="seleccionar_ficheros_log">Escolha a data do arquivo LOG</string>
+    <string name="seleccionar_origen_foto">Escolha fotos a partir de:</string>
+    <string name="siguiente">Seguinte</string>
+    <string name="sistema">Sistema</string>
+    <string name="tiposMensajes">Tipos de mensagem</string>
+    <string name="totales">total</string>
+    <string name="tvHRKm">Km</string>
+    <string name="tvHRTarjetaDigitos">4 ult. digitos</string>
+    <string name="verTodosDocumentos">Documentos PDF</string>
+    <string name="verTodosMensajes">Mensagens</string>
+    <string-array name="tipo_mensajes">
+        <item>Mensagem</item>
+        <item>Atualizar</item>
+        <item>Sincronização</item>
+        <item>Novas partes</item>
+        <item>Aviso SLA</item>
+    </string-array>
+    <string name="enviando_log">Envio de LOG</string>
+    <string name="no_hay_fotos">Sem imagens associadas.</string>
+    <string name="OK_VF">OK/VF</string>
+    <string name="no_hay_documentos">Nenhum documento</string>
+    <string name="no_hay_entradas">Nenhuma entrada</string>
+    <string name="no_hay_salidas">Não há saídas</string>
+    <string name="no_tienes_mensajes">Nenhuma mensagem</string>
+    <string name="no_tienes_partes">Você não tem parte</string>
+    <string name="rechazados">Rejeitados</string>
+    <string name="recibidos">Recebido</string>
+    <string name="salidas">Saídas</string>
+    <string name="vistos">Visualizados</string>
+    <string name="documentos">Documentos</string>
+    <string name="en_curso">No curso</string>
+    <string name="entradas">Entradas</string>
+    <string name="mensajes">Mensagens</string>
+    <string name="cambio_estado_no_permitido">NÃO PERMITIDO mudança de status</string>
+    <string name="tiempo_minimo">Por favor, indique um tempo mínimo de 5 minutos</string>
+    <string name="BotonMyStock">Mi stock</string>
+    <string name="busqueda_dias1">%s Dias\nem stoque</string>
+    <string name="busqueda_motivo_devolucion">Razão para o retorno</string>
+    <string name="busqueda_selecciona_obligatorio">Analise todas as razões para o retorno. É obrigatório para seleccionar uma opção.</string>
+    <string name="busqueda_selecciona_opcion">Selecione uma razão&#8230;</string>
+    <string name="consultar_geminis">Clique aqui para Gêmeos</string>
+    <string name="load_material_data">Carregando dados&#8230;</string>
+    <string name="title_activity_detalle_material">Material de detalhes</string>
+    <string name="idioma_cambiado">Você deseja alterar o idioma do aplicativo para o</string>
+    <string name="desarrollo_activar">Modo de desenvolvimento activado</string>
+    <string name="desarrollo_desactivar">Modo de desenvolvimento off</string>
+    <string name="desarrollo_modo">Desenvolvimento</string>
+    <string name="desarrollo_url">URL para o desenvolvimento</string>
+    <string name="sector_actividad">Setor de atividades</string>
+    <string name="Modelo_asterisco">Modelos *</string>
+    <string name="Nombre_apellido">Nome e sobrenome</string>
+    <string name="accion_cierre">Ação *</string>
+    <string name="agenda">Diário</string>
+    <string name="añadir_elemento">Add item</string>
+    <string name="añadir_equipo">Adicione equipe</string>
+    <string name="añadir_firma">Adicionar assinatura</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cantidad_retirar">Número de elementos para retirar</string>
+    <string name="casuistica_actualizando">Atualizar tabelas casuística. Por favor, tente novamente em alguns minutos.</string>
+    <string name="casuistica_no_contemplada">Casuística não abrangidos. Entre em contato com sua delegação.</string>
+    <string name="casuistica_no_hay_acciones">Não casuística ações. Entre em contato com sua delegação.</string>
+    <string name="cerrar_parte">Cerrar parte</string>
+    <string name="cierre_enviado_correctamente">A parte foi fechada correctamente.</string>
+    <string name="cierre_parte">Parte de fechar</string>
+    <string name="codido_cierre">Código de perto</string>
+    <string name="completa_arbol_cierre">Seleção incompleta</string>
+    <string name="delete">Remover</string>
+    <string name="desea_eliminar_foto">Você deseja excluir esta foto?</string>
+    <string name="elementos_retirados">Itens removidos:</string>
+    <string name="elements_removed">Itens removidos:</string>
+    <string name="equipment_instaled">Equipamentos instalados:</string>
+    <string name="equipment_installed">Componentes instalados:</string>
+    <string name="equipment_model">Equipamentos de model para remover:</string>
+    <string name="equipment_removed">Aposentar Equipamento:</string>
+    <string name="error_cerrando_parte">Erro ao enviar parte</string>
+    <string name="situacion_cierre_parte">Parte fechada corretamente com situação <b>%1$s</b></string>
+    <string name="escribe_comentario">Escrever um comentário</string>
+    <string name="estado_codigo_cierre">Estado *</string>
+    <string name="fecha">Data *</string>
+    <string name="firma">Assinatura</string>
+    <string name="has_instalado_elemento">Você instalou qualquer produto?</string>
+    <string name="has_instalado_equipo">Você instalou qualquer computador?</string>
+    <string name="has_retirado_elemento">Você removeu qualquer produto?</string>
+    <string name="has_retirado_equipo">Você removeu qualquer equipamento?</string>
+    <string name="hora">Tempo *</string>
+    <string name="imagenes_obligatorias">Imagens mandato</string>
+    <string name="imagenes">Imagens</string>
+    <string name="imagenes_opcionales">Imagens adicional</string>
+    <string name="informacion_parte">Informações parte</string>
+    <string name="longitud_minima">Caracteres</string>
+    <string name="mas_imagenes">Puedes adicionar mais imagens na parte.</string>
+    <string name="model">Modelo:</string>
+    <string name="model_not_found">Modelo não encontrado</string>
+    <string name="no_elemento_seleccionado">Escolha um model</string>
+    <string name="no_hay_casuisticas">Sem casuística referido</string>
+    <string name="no_selection">Nenhuma seleção</string>
+    <string name="no_tienes_elementos_instalados">Você não tem itens instalados.</string>
+    <string name="no_tienes_elementos_retirados">Não tem itens removidos.</string>
+    <string name="no_tienes_equipos_instalados">Você não tem equipamentos instalados.</string>
+    <string name="no_tienes_equipos_retirados">Não tem equipos retirados.</string>
+    <string name="num_documento">Documento No.</string>
+    <string name="email_cierre">Enviar Cópia para o Comércio</string>
+    <string name="email_cierre_et">Email Comercial</string>
+    <string name="numero_serie_no_equipo">Você não tem equipamento para este número de série.</string>
+    <string name="observaciones">Observações</string>
+    <string name="particularidad_cierre">Peculiaridade *</string>
+    <string name="previous">Anterior</string>
+    <string name="proxima_visita">Dados completos para a próxima visita</string>
+    <string name="quieres_enviar_parte">Tem certeza de que deseja enviar a parte?</string>
+    <string name="revisa_datos">Verifique o fechamento resumo antes de enviá-lo.</string>
+    <string name="select_action">Selecione uma ação …</string>
+    <string name="select_document_type">Selecionar tipo de documento …</string>
+    <string name="select_particularity">Selecione especial …</string>
+    <string name="select_serial_number">Selecione o número de série …</string>
+    <string name="select_some_elements">Selecione um ou mais itens</string>
+    <string name="select_some_equipment">Selecione um ou mais computadores</string>
+    <string name="select_state">Selecione um tipo de …</string>
+    <string name="select_code0">Seleccione um código…</string>
+    <string name="select_subcode3">Seleccione um subcódigo…</string>
+    <string name="serial_number_asterisco">"Número de série * "</string>
+    <string name="situacion">Situação</string>
+    <string name="step_1">PASSO 1: Equipamento de remoção</string>
+    <string name="step_2">PASSO 2: Retirar os elementos</string>
+    <string name="step_4">PASSO 4: Equipamento de instalação</string>
+    <string name="step_5">PASSO 5: Instalação de elementos</string>
+    <string name="step_7">PASSO 7: Código de Encerramento</string>
+    <string name="step_8_1">PASSO 8: Documentação (1/8)</string>
+    <string name="step_8_2">PASSO 8: Documentação (2/8)</string>
+    <string name="step_8_3">PASSO 8: Documentação (3/8)</string>
+    <string name="step_8_4">PASSO 8: Documentação (4/8)</string>
+    <string name="step_8_5">PASSO 8: Documentação (5/8)</string>
+    <string name="step_8_6">PASSO 8: Documentação (6/8)</string>
+    <string name="step_8_7">PASSO 8: Documentação (7/8)</string>
+    <string name="step_8_8">PASSO 8: Documentação (8/8)</string>
+    <string name="step_9">PASSO 9: Confirmação</string>
+    <string name="communicationType">Tipo de comunicação</string>
+    <string name="tipoDocumento">"Tipo de documento "</string>
+    <string name="ver_parte">Ver parte</string>
+
+    <!--New Work Report Activity-->
+    <!-- dalonso 09/01/2018 -->
+    <string name="new_work_report_activity_title">parte do trabalho</string>
+    <string name="menuAlmacenRecuperandoStock">Recuperando estoque&#8230;</string>
+    <string name="new_work_text">PARTS OF WORKS</string>
+    <string name="select_client">Selecione um cliente</string>
+    <string name="select_commerce">Selecione um comércio</string>
+    <string name="searchCommerce">Pesquisar comércio</string>
+    <string name="busqueda">Resultados:</string>
+    <string name="empty_commerce">Nenhum comércio foi encontrado</string>
+    <string name="load_commerce">Carregando trades&#8230;</string>
+    <string name="workreport_data">Parte de dados</string>
+    <string name="client_newworkreport">Cliente *</string>
+    <string name="commerce_newworkreport">Comércio  *</string>
+    <string name="work_newworkreport">Trabalho *</string>
+    <string name="technical_newworkreport">Técnico *</string>
+    <string name="data_newworkreport">Criação de data / hora *</string>
+    <string name="continue_newworkreport">continue</string>
+    <string name="send_workreport">Envie parte alta</string>
+    <string name="work_data">Dados do trabalho</string>
+    <string name="client_reference">Referência do cliente (pergunte ao cliente)</string>
+    <string name="incidence">Incidência *</string>
+    <string name="observations">Observações</string>
+    <string name="commerce_equipment">Equipe no comércio</string>
+    <string name="serial_number">Série</string>
+    <string name="complementary_data">Informação adicional</string>
+    <string name="select_error_code">Selecione uma incidência</string>
+    <string name="select_model">Selecione um model</string>
+    <string name="newworkreport_sended">PARTE ENVIADA!</string>
+    <string name="newworkreport_close_ask">"Deseja começar a fechar a peça? "</string>
+    <string name="send_to">Enviado para</string>
+    <string name="no_network_error">O carregamento não foi feito corretamente. Você pode tentar novamente após alguns segundos</string>
+    <string name="work_exist_error">¡Atenção!\\nJá existe uma parte aberta com este trabalho</string>
+    <string name="try_again">VOLTAR PARA ENVIAR</string>
+    <string name="without_connection">Sem cobertura</string>
+    <string name="error">ERRO</string>
+    <string name="Mexican">Mexicano</string>
+    <string name="select_work">Selecione um trabalho</string>
+    <string name="particularities">Particularidades</string>
+    <string name="csb">CSB</string>
+    <string name="concesion">Concessão</string>
+    <string name="office">Office </string>
+    <string name="company">Compañía</string>
+    <string name="horario_tienda">horário</string>
+    <string name="rotulo">Título</string>
+    <string name="contact_schedule">Agenda de contatos</string>
+    <string name="commerce_detail">Detalhe de comércio</string>
+    <string name="equip_to_install">equipamento para instalar</string>
+    <string name="busqueda_no_hay_transportista">Não há transportador</string>
+    <string name="generic_error">Erro do sistema</string>
+    <string name="hora_limite">prazo final</string>
+    <string name="en">em</string>
+    <string name="filter_serialNumber">número de série</string>
+    <string name="info">info</string>
+    <string name="characters">carac.</string>
+    <string name="PNuHistorioSalidasAlmacen">minhas remessas</string>
+    <string name="PNlastshiptments">Informação de Envio</string>
+    <string name="newshipment">Novo embarque</string>
+    <string name="noshipmentsavalible">Sem remessas</string>
+    <string name="sentArticles">Itens enviados</string>
+    <string name="ship_date">Data de envio</string>
+    <string name="status_albaran">Status da nota de entrega</string>
+    <string name="empty_sent_articles">Não há informação de elementos enviados disponível</string>
+    <string name="save">Salvar</string>
+    <string name="no_transporter">Não tem um transportador</string>
+    <string name="no_tracking">Não tem rastreamento</string>
+    <string name="data_without_saving">Você tem alterações sem salvar, você tem certeza de que deseja sair?</string>
+    <string name="sure_to_save_changes">Tem certeza de que deseja salvar as alterações?</string>
+    <string name="try_again_error">Erro ao enviar a peça, por favor, tente novamente.</string>
+    <string name="download_models">Não é possível iniciar o fechamento da peça, é necessário atualizar os modelos. Por favor entre em contato com o suporte.</string>
+    <string name="error_cierre_parte">Esta peça foi fechada manualmente e não há dados para o fechamento assistido.</string>
+
+    <string name="config_casuisticas_versions">Versões de BBDD</string>
+    <string name="config_casuisticas_actions">Cas. Acciones</string>
+    <string name="config_casuisticas_materials">Cas. Materiais</string>
+    <string name="settings">Configuração</string>
+    <string name="request_permission">" Todas as permissões são necessárias para um bom desempenho"</string>
+    <string name="required_permissions_title">" Permissões necessárias"</string>
+    <string name="required_permissions_message">É obrigatório habilitar todas as permissões para poder fechar uma parte</string>
+    <string name="config_casuisticas_tpv_models">Modelos POS</string>
+    <string name="DetalleCierre">Detalhes fechamento</string>
+    <string name="contact_data_title">Modificar informações de contato</string>
+    <string name="contact_data_email_message">Você quer modificar seu email de %1$s para %2$s?</string>
+    <string name="contact_data_updating">Atualizando informações de contato</string>
+    <string name="contact_data_phone_message">Você quer modificar seu telefone de %1$s para %2$s?</string>
+    <string name="contact_data_successfully_save">Dados de contato bem-sucedidos</string>
+    <string name="contact_data_error_invalid_phone">"O número de telefone digitado não é válido "</string>
+    <string name="categoria">Categoria</string>
+    <string name="productos_asociados">Produtos associados</string>
+    <string name="productos_no_asociados">Este produto não tem parceiros</string>
+    <string name="discrepancia_stock">O equipamento deve ser enviado COMPLETO juntamente com seus CONSUMÍVEIS, mas nenhum será enviado, pois não possui ESTOQUE. A discrepância será registrada no depósito.</string>
+    <string name="info_consumibles">Consumível adicionado automaticamente ao ser associado à equipe com a série %s, model %s de %s</string>
+    <string name="productos_relacionados_format">Produtos relacionados %s</string>
+    <string name="productos_seleccionados_no">Nenhum produto selecionado</string>
+    <string name="productos_seleccionado_format">Produtos selecionados %s</string>
+    <string name="consumibles_added">Consumíveis selecionados</string>
+    <string name="no_consumibles_added">Não há consumíveis selecionados</string>
+    <string name="partes_finalizados">Peças acabadas</string>
+    <string name="equipo_importado_correctamente">Equipamento importado corretamente</string>
+    <string name="error_conexion_servidor">Erro de conexão com o servidor</string>
+    <string name="importar_numero_serie">Importar número de série</string>
+    <string name="obligatorio">Obrigatório</string>
+    <string name="relleno">Racheio</string>
+    <string name="relleno_origen">Origem racheio</string>
+    <string name="quantity">Quantidade</string>
+    <string name="agendar_cita">Agendar compromisso no meu dispositivo</string>
+    <string name="importar">Importar</string>
+    <string name="error_importar">Erro ao importar o número de série</string>
+    <string name="equipo_encontrado">Equipamento encontrado:\n\t\tModelo: [%s] %s (%s)\n\t\tTécnico: [%s] %s\n\nFazer importação?</string>
+
+</resources>

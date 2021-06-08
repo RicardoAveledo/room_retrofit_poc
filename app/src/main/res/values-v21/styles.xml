@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OrionTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorPrimaryDark">@color/azul_oscuro</item>
+        <item name="colorAccent">@color/naranja</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/azul_oscuro</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+        <item name="actionBarTabStyle">@style/MyActionBarTabs</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <!-- ActionBar tabs styles -->
+    <style name="MyActionBarTabs" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">@drawable/tab_bar_background</item>
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/tab_bar_background</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+</resources>

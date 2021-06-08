@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="textoPequenoListado">
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_margin">2sp</item>
+        <item name="android:layout_gravity">left|center</item>
+    </style>
+
+    <style name="textoMedianoListado">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">2sp</item>
+        <item name="android:layout_gravity">left|center</item>
+    </style>
+
+    <style name="OrionTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorPrimaryDark">@color/azul_oscuro</item>
+        <item name="colorAccent">@color/naranja</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarTabStyle">@style/MyActionBarTabs</item>
+    </style>
+
+    <style name="OrionThemeNoTitle" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorPrimaryDark">@color/azul_oscuro</item>
+        <item name="colorAccent">@color/naranja</item>
+        <!-- Support library compatibility -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- ActionBar tabs styles -->
+    <style name="MyActionBarTabs" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">@drawable/tab_bar_background</item>
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/tab_bar_background</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <declare-styleable name="FlagLayout">
+        <attr name="line_padding" format="integer"/>
+    </declare-styleable>
+
+    <style name="LoginOrionTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorPrimaryDark">@color/azul_oscuro</item>
+        <item name="colorAccent">@color/naranja</item>
+        <item name = "android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="spinner_selected_blue_style" parent="android:Widget.ListView.DropDown">
+        <item name="android:background">@color/azul</item>
+        <item name="android:textColor">@color/light_orange</item>
+    </style>
+    <style name="orion_progressbar_style" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_drawable</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SpinnerTheme">
+        <!-- Color when pressed -->
+        <item name="colorAccent">@color/light_gray</item>
+        <!-- Default color for the dropdown arrow and line -->
+        <item name="colorControlNormal">@color/gray</item>
+    </style>
+
+    <style name="MY.DIALOG" parent="android:Theme" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+</resources>

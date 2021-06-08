@@ -1,0 +1,15 @@
+<resources>
+
+
+    <string-array name="default_color_choice_values" translatable="false">
+        <item>#7fcc7f</item>
+        <item>#ff8400</item>
+        <item>#ff7f7f</item>
+        <item>#007bff</item>
+        <item>#3cff00</item>
+        <item>#ff0400</item>
+        <item>#fff200</item>
+        <item>#e57fff</item>
+    </string-array>
+
+</resources>

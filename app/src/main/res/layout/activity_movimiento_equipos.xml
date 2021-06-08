@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.movimientoUL.MovimientoULDetalleActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/frameLayoutEquipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayoutSend">
+
+                <Button
+                    android:id="@+id/sendEquipos"
+                    android:layout_width="295dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/azul_oscuro"
+                    android:text="Fin de la selección"
+                    android:textColor="@color/white"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ListView
+                    android:id="@+id/listViewEquipos"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:layout_constraintBottom_toTopOf="@+id/sendEquipos"
+                    app:layout_constraintEnd_toEndOf="@+id/sendEquipos"
+                    app:layout_constraintStart_toStartOf="@+id/sendEquipos">
+
+                </ListView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/frameLayoutData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/background_step_realizado"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/codigoNombreText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_horizontal"
+                    android:lines="1"
+                    android:maxLines="4"
+                    android:text="Código UL - Nombre"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/codigoNombreAlmacenText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_horizontal"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="CODIGO_ALMACEN–NOMBRE_ALMACEN"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toEndOf="@+id/codigoNombreText"
+                    app:layout_constraintStart_toStartOf="@+id/codigoNombreText"
+                    app:layout_constraintTop_toBottomOf="@+id/codigoNombreText" />
+
+                <TextView
+                    android:id="@+id/completaText"
+                    android:layout_width="265dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="COMPLETA "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/verde_boton"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/codigoNombreAlmacenText"
+                    app:layout_constraintStart_toStartOf="@+id/codigoNombreAlmacenText"
+                    app:layout_constraintTop_toBottomOf="@+id/codigoNombreAlmacenText" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/frameLayoutSend"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayoutData">
+
+                <TextView
+                    android:id="@+id/textDescription"
+                    android:layout_width="295dp"
+                    android:layout_height="40dp"
+                    android:gravity="left"
+                    android:lines="2"
+                    android:maxLines="4"
+                    android:text="Escanee el código de serie del equipo a incluir en el movimiento:"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.523"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayoutSend" />
+
+                <EditText
+                    android:id="@+id/editTextCode"
+                    android:layout_width="234dp"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:hint="Serie del equipo a mover"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPersonName"
+                    app:layout_constraintStart_toStartOf="@+id/textDescription"
+                    app:layout_constraintTop_toBottomOf="@+id/textDescription" />
+
+                <Button
+                    android:id="@+id/validateButton"
+                    android:layout_width="295dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/amarillo_configuracion"
+                    android:text="Agregar equipo"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="@+id/textDescription"
+                    app:layout_constraintStart_toStartOf="@+id/editTextCode"
+                    app:layout_constraintTop_toBottomOf="@+id/scanButton" />
+
+                <ImageView
+                    android:id="@+id/scanButton"
+                    android:layout_width="53dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/boton_azul"
+                    android:cropToPadding="true"
+                    android:drawablePadding="@dimen/activity_bottom_margin"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_buscar_qr_blanco"
+                    app:layout_constraintBottom_toBottomOf="@+id/editTextCode"
+                    app:layout_constraintEnd_toEndOf="@+id/textDescription"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/editTextCode"
+                    app:layout_constraintTop_toTopOf="@+id/editTextCode" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="login_progress_signing_in">Iniciando sesión&#8230;</string>
+    <string name="error_invalid_email">La dirección de correo electrónico no es válida</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="error_invalid_longitud">La longitud es incorrecta</string>
+
+</resources>

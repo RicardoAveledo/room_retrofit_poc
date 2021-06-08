@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="drawer_open">Abrir menú de navegación</string>
+    <string name="drawer_close">Cerrar menú de navegación</string>
+
+    <string name="navdrawer_section_100">Partes de Trabajo Cargados</string>
+
+    <string name="navdrawer_section_item_101">Recibidos</string>
+    <string name="navdrawer_section_item_102">Visualizados</string>
+    <string name="navdrawer_section_item_103">En curso</string>
+    <string name="navdrawer_section_item_105">Finalizados</string>
+    <string name="navdrawer_section_item_106">Organizar ruta</string>
+    <string name="navdrawer_section_item_107">Alta partes</string>
+
+    <string name="navdrawer_section_200">Almacén</string>
+    <string name="navdrawer_section_item_201">Entradas</string>
+    <string name="navdrawer_section_item_202">Salidas</string>
+    <string name="navdrawer_section_item_203">Mi stock</string>
+    <string name="navdrawer_section_item_205">Mis envíos</string>
+
+    <string name="navdrawer_section_300">Hoja de ruta</string>
+    <string name="navdrawer_section_item_301">Ruta diaria</string>
+    <string name="navdrawer_section_item_302">Trabajos realizados</string>
+
+    <string name="navdrawer_section_400">Comunicación</string>
+    <string name="navdrawer_section_item_401">Mensajes</string>
+    <string name="navdrawer_section_item_402">Documentos PDF</string>
+
+</resources>

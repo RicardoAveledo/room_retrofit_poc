@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco">
+
+  <LinearLayout
+      android:id="@+id/main_form"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:weightSum="1">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0.025" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="0.2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logodownload" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.075" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="0.52"
+        android:background="@color/azul"
+        android:elevation="40dp"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:orientation="vertical"
+          android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+          <Spinner
+              android:id="@+id/spBusinessUnits"
+              style="@style/spinner_selected_blue_style"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:textColorHint="@color/naranja">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Usuario"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@color/blanco"
+                android:textColorHint="@color/light_gray" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="15dp"
+              android:textColorHint="@color/naranja"
+              app:passwordToggleEnabled="true"
+              app:passwordToggleTint="@android:color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@color/blanco"
+                android:textColorHint="@color/light_gray" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange">
+
+          <TextView
+              android:id="@+id/sign_in_button"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?android:selectableItemBackground"
+              android:gravity="center_horizontal|center_vertical"
+              android:paddingTop="18dp"
+              android:paddingBottom="18dp"
+              android:text="Descargar Casuísticas"
+              android:textAllCaps="true"
+              android:textColor="@color/blanco"
+              android:textStyle="bold" />
+        </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="8dp"
+          android:background="@color/medium_orange" />
+
+    </LinearLayout>
+
+    <!--FOOTER-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.18"
+        android:gravity="bottom|end"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/txtVersion"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="3dp"
+          android:text="Versión: 0.0.1"
+          android:textColor="@color/charcoal_gray"
+          android:textSize="12sp" />
+
+      <ImageView
+          android:id="@+id/logo2"
+          android:layout_width="150dp"
+          android:layout_height="40dp"
+          android:src="@drawable/logogrupo1" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/login_status"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/blanco"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:visibility="gone">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_margin="25dp"
+          android:src="@drawable/constelacion_app" />
+
+      <ProgressBar
+          style="@style/orion_progressbar_style"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/login_progress_signing_in"
+        android:textColor="@color/charcoal_gray"
+        android:textSize="12sp" />
+
+  </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by acastillo 25/11/2016
+-->
+<resources>
+
+    <color name="verde_boton">#229413</color>
+    <color name="rojo_boton">#d32f2f</color>
+    <color name="rojo_text_error">#b70000</color>
+    <color name="alpha">#00ffffff</color>
+    <color name="alpha_white">#BBffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="blanco">#ffffff</color>
+    <color name="azul_tecnico">#277298</color>
+    <color name="backgroung_gray">#f7f7f7</color>
+    <color name="light_gray">#DDDDDD</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="dark_gray">#979797</color>
+    <color name="charcoal_gray">#464646</color>
+    <color name="negro">#000000</color>
+    <color name="negro_fondo_vida_digital">#222222</color>
+    <color name="alpha_black_dark">#AA000000</color>
+    <color name="alpha_black">#55000000</color>
+    <color name="orange">#fc9900</color>
+    <color name="medium_orange">#ffb946</color>
+    <color name="light_orange">#ffcb79</color>
+    <color name="light_orange_tab">#ffc566</color>
+
+    <color name="verde_entrada_almacen_validada">#f2faf9</color>
+    <color name="rojo_entrada_almacen_rechazada">#fff4f4</color>
+
+    <color name="azul_claro">#2c7197</color>
+    <color name="azul">#004165</color>
+    <color name="azul_oscuro">#00314d</color>
+    <color name="azul2">#005578</color>
+    <color name="naranja">#ff9800</color>
+    <color name="rojo_notifiacion">#e74c3c</color>
+    <color name="gris_fondo_boton_principal">#f9f9f9</color>
+    <color name="gris_linea_boton_principal">#b8b8b8</color>
+    <color name="gris_linea_boton_principal_pulsado">#99b8b8b8</color>
+
+    <color name="amarillo_configuracion">#ffd087</color>
+    <color name="gris_texto_configuracion">#444444</color>
+
+    <color name="secondary_text">#808080</color>
+    <color name="blue_info">#2389E0</color>
+    <color name="red_error">#C32717</color>
+
+</resources>

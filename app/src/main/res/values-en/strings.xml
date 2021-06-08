@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diusframi Orion Logistics</string>
+    <string name="action_refresh">Update</string>
+    <string name="action_logout">Log out</string>
+    <string name="Cargando">Loading…</string>
+
+    <!-- Pestañas de la lista de trabajos pendientes -->
+    <string name="Recibidos">Received</string>
+    <string name="Visualizados">Displayed</string>
+    <string name="Encurso">In progress</string>
+    <string name="Finalizados">Finished</string>
+    <string name="OrganizarRuta">Organize route</string>
+
+    <!-- Pestañas de la del detalle de trabajos pendientes -->
+    <string name="Aviso">Notification</string>
+    <string name="Comercio">Commerce</string>
+    <string name="Equipo">Equipment</string>
+    <string name="Cierre">Close</string>
+    <string name="Reasignar">Reassign</string>
+    <string name="Instalado">Installed</string>
+    <string name="Finalizado">Finalize</string>
+    <string name="Fotos">Photos</string>
+    <string name="Encuesta">Quiz</string>
+    <string name="Firma">Signature</string>
+    <string name="VidaDigital">DigitalLife</string>
+
+    <!-- Detalle de Avisos de trabajos pendientes -->
+    <string name="DetalleAviso">Notice detail</string>
+    <string name="Trabajo">Elaboration</string>
+    <string name="Cliente">Customer</string>
+    <string name="NumAveria">Nº Fault</string>
+    <string name="CodigoError">Error code</string>
+    <string name="Incidencia">Incidence</string>
+    <string name="Entrada">Entrance</string>
+    <string name="NumeroParte">Nº Dispatch</string>
+    <string name="Limite">Limit</string>
+    <string name="NombreComercio">Commerce name</string>
+    <string name="Material">Material</string>
+    <string name="ValorCliente">Customer value</string>
+    <string name="ValorTrabajo">Elaboration value</string>
+    <string name="ValorLimite">Limit value</string>
+    <string name="ValorNumAveria">Num Fault value</string>
+    <string name="ValorCodigoError">Error code vlaue</string>
+    <string name="ValorIncidencia">Incidence value</string>
+    <string name="ValorEntrada">Entrance value</string>
+    <string name="ValorNParte">Nº Dispatch value</string>
+
+    <!-- Detalle de Comercio de trabajos pendientes -->
+    <string name="DetalleComercio">Commerce detail</string>
+    <string name="FUC">FUC</string>
+    <string name="Nombre">Name</string>
+    <string name="Direccion">Address</string>
+    <string name="Localidad">Town/City</string>
+    <string name="CodigoPostal">Postal code</string>
+    <string name="Provincia">Province</string>
+    <string name="Telefono">Telephone</string>
+    <string name="Horario">Schedule</string>
+    <string name="Contacto">Contact</string>
+    <string name="ValorFUC">FUC VALUE</string>
+    <string name="ValorCompania">Company value</string>
+    <string name="ValorNombre">Name value</string>
+    <string name="ValorDireccion">Address value</string>
+    <string name="ValorLocalidad">Town/city value</string>
+    <string name="ValorCP">Postal code value</string>
+    <string name="ValorProvincia">Province value</string>
+    <string name="ValorHorario">Schedule value</string>
+    <string name="ValorContacto">Contact value</string>
+    <string name="Map">Map</string>
+
+
+    <!-- Detalle de Equipo de trabajos pendientes -->
+    <string name="DetalleEquipo">Detail Equipment</string>
+    <string name="CodigoTPV">TPV code</string>
+    <string name="Modelo">Model</string>
+    <string name="NumeroSerie">Serial number</string>
+    <string name="PalabraPaso">Password</string>
+    <string name="EnComercio">In commerce</string>
+    <string name="AInstalar">To install</string>
+    <string name="ValorCodigoTPV">TPV code value</string>
+    <string name="ValorModelo">Model value</string>
+    <string name="ValorNumeroSerie">Serial number value</string>
+    <string name="ValorPalabraPaso">Password value</string>
+
+
+    <!-- Vida digital -->
+    <string name="VidaDigitalTitle">Digital Life</string>
+    <string name="preguntaVidaDigital">Is the trade interested in receiving more information about the product VIDA DIGITAL?</string>
+    <string name="contacto_VD">Contact person*</string>
+    <string name="telefono1_VD">Contact phone 1*</string>
+    <string name="telefono2_VD">Contact phone 2</string>
+    <string name="mail_VD">Contact email*</string>
+    <string name="tipoComercio_VD">Type of trade*</string>
+    <string name="observaciones_VD">Observations</string>
+    <string name="seleccione_VD">Select</string>
+    <string name="porqueNo_VD">Why does not the product interest?*</string>
+
+    <!-- Detalle de Instalado de trabajos pendientes -->
+    <string name="DetalleInstalado">Installed detail</string>
+    <string name="Agregar">Add</string>
+    <string name="MaterialInstalado">Installed Material</string>
+    <string name="Complementos">Accessories</string>
+
+    <!-- Detalle Retirar de trabajos pendientes -->
+    <string name="DetalleRetirar">Remove detail</string>
+    <string name="NumeroARetirar">Number to remove</string>
+    <string name="Retirar">Remove</string>
+    <string name="ValorNumeroRetirar">Number to remove value</string>
+    <string name="NumeroSerieNoCoincide">The serial number does not have the correct length.</string>
+
+    <!-- Detalle Fin de trabajos pendientes -->
+    <string name="DetalleFin">End detail</string>
+    <string name="FinOK">OK</string>
+    <string name="FinVF">VF</string>
+    <string name="AveriaDetectada">Fault detected</string>
+    <string name="Motivo">Reason</string>
+    <string name="seleccione_averia">SELECT TYPE OF TROUBLE</string>
+    <string name="seleccione_motivo">CHOOSE REASON</string>
+    <string name="Incidencias">Incidences</string>
+    <string name="Observaciones">Comments</string>
+    <string name="NumeroFax">Fax number</string>
+    <string name="Email">Email</string>
+
+    <!-- Pagina inicio de la aplicacion -->
+    <string name="PartesRecibidos">Dispatches Received</string>
+    <string name="PartesCurso">Dispatches in progress</string>
+    <string name="PartesRechazados">Dispatches Rejected</string>
+    <string name="EntradasAlmacen">Entrances in Stock</string>
+    <string name="SalidasAlmacen">Derpatures from Warehouse</string>
+    <string name="RutaDiaria">Daily Route</string>
+
+    <!-- Detalle Encuesta de trabajos pendientes -->
+    <string name="DetalleEncuesta">Quiz detail</string>
+    <string name="SinEncuesta">Without quiz</string>
+    <string name="SI">YES</string>
+    <string name="NO">NO</string>
+    <string name="SIMInstalada">Installed SIM</string>
+    <string name="CoberturaMovistar">Movistar Coverage</string>
+    <string name="CoberturaVodafone">Vodafone Coverage</string>
+    <string name="CoberturaOrange">Orange Coverage</string>
+
+    <!-- Frame de fotos -->
+    <string name="ErrorNoFotos">Error. You can not take pictures</string>
+    <string name="SUPERADOTOPEFOTO">ou have reached the limit of photos</string>
+    <string name="BORRARFOTO">Do you want to delete the selected photos \?</string>
+    <string name="ENCENDER_GPS">You must enable GPS</string>
+
+    <!-- Para firmas -->
+    <string name="Firmar">Sign</string>
+    <string name="Fdo">Signed.:</string>
+
+    <!-- Para Reasignar -->
+    <string name="SinTecnicos1">You can not reassign.</string>
+    <string name="SinTecnicos2">Do not have dependents technicians.</string>
+    <string name="ERROR">ERROR</string>
+    <string name="AVISO">WARNING</string>
+
+    <!-- Para menú -->
+    <string name="Comenzar">START</string>
+	<string name="EnCamino">ON THE WAY</string>
+    <string name="Enviar">SEND</string>
+    <string name="BorrarLinea">Do you want to erase the line?</string>
+    <string name="ErrorInsertarMaterial">Error inserting material. Is not recorded</string>
+    <string name="Borrar">Clean</string>
+    <string name="Aceptar">Accept</string>
+    <string name="Version">Versión: %1$s (%2$d) %3$s</string>
+
+    <!-- layout de Resoluciones -->
+    <string name="Averia">Fault</string>
+
+    <!-- layout de técnicos (para las reasignaciones) -->
+    <string name="NombreTecnico">Technical name</string>
+
+    <!-- Menú de organizar rutas -->
+    <string name="Ordenar">Order</string>
+    <string name="Cancelar">Cancel</string>
+    <string name="ReordenarTodos">Please mark all dispatches to reorder the route</string>
+
+    <!-- Almacén pestañas -->
+    <string name="title_activity_almacen">Warehouse</string>
+    <string name="PEntradasAlmacen">Entrances</string>
+    <string name="PSalidasAlmacen">Departures</string>
+    <string name="PMaterialAlmacen">Material</string>
+    <string name="PNuevaSalidaAlmacen">New departure</string>
+
+    <!-- Almacén  menú -->
+    <string name="Opciones">Options</string>
+    <string name="menuAlmacenHacerTodo">Do everything</string>
+    <string name="menuAlmacenRecuperarStock">Recover Stock</string>
+
+    <!-- Fragmento BusquedaFragment dentro de Almacen (AlmacenB, la B de busqueda) -->
+    <string name="AlmacenBBusqueda">Search</string>
+    <string name="AlmacenBNumeroSerie">Serial number</string>
+    <string name="AlmacenBBuscar">Search</string>
+    <string name="AlmacenBAlbaran">Waybill</string>
+    <string name="AlmacenBFecha">Date</string>
+    <string name="AlmacenBCliente">Customer</string>
+    <string name="AlmacenBCodModelo">Model code</string>
+    <string name="AlmacenBModelo">Model</string>
+    <string name="MaterialNoExiste">Material not exist</string>
+
+    <!-- Fragmento Materiales en Almacen -->
+    <string name="AlmacenMatNumSerie">Serial Num.</string>
+    <string name="AlmacenMatCodModelo">Model code</string>
+    <string name="AlmacenMatModelo">Model</string>
+    <string name="AlmacenMatCliente">Customer</string>
+    <string name="AlmacenMatEstado">State</string>
+    <string name="AlmacenMatTipoStock">Stock type</string>
+    <string name="AlmacenMatAlbaran">Waybill</string>
+    <string name="AlmacenMatFecha">Date</string>
+    <string name="AlmacenMatAlmacen">Warehouse</string>
+
+    <!-- Fragmento Nueva Salida en Almacen -->
+    <string name="AlmacenNSEnviar">Send Waybill</string>
+    <string name="AlmacenNuevoAlbaranSalida">New Waybill to derparture</string>
+    <string name="AlmacenNuevoAlbaranErrorAceptarSalida">"Error: unable to accept the delivery note "</string>
+    <string name="AlmacenNuevoAlbaranErrorRechazarSalida">"Error: unable to refuse the delivery note "</string>
+    <string name="AlmacenNSNumeroSerie">Material</string>
+
+    <!-- Fragmento Entradas en Almacen -->
+    <string name="AlmacenFecha">Date</string>
+    <string name="AlmacenAlbaran">Waybill</string>
+    <string name="AlmacenAlbaranErrorAceptarEntrada">Failed accepting the receipt form</string>
+    <string name="AlmacenAlbaranErrorRechazarEntrada">Failed rejecting the receipt form</string>
+    <string name="AlmacenAlmacen">Warehouse</string>
+    <string name="AlmacenValidar">Validate</string>
+    <string name="AlmacenRechazar">Reject</string>
+    <string name="AlmacenDesmarcar">Uuncheck</string>
+    <string name="AlmacenVerDatos">View Details</string>
+    <string name="NSBORRARMATERIAL">Are you sure to delete the line?</string>
+
+    <!-- para los botones con imágenes -->
+    <string name="CapturarCB">Capture Barcode</string>
+    <string name="SacarFoto">Take Photography</string>
+    <string name="borrarFoto">Remove Photography</string>
+    <string name="AvanzarFoto">Next Photography</string>
+    <string name="RetrocederFoto">Previous Photography</string>
+    <string name="ImagenFoto">Photography</string>
+
+    <!-- menú verdatos -->
+    <string name="menuverdatosAceptar">Accept</string>
+    <string name="menuverdatosRechazar">Reject</string>
+    <string name="title_activity_verdatos">Waybill details</string>
+    <string name="AlmacenVDAlbaran">Waybill</string>
+    <string name="AlmacenVDAlmacen">Warehouse</string>
+    <string name="VDCliente">Customer</string>
+    <string name="VDCodModelo">Model code</string>
+    <string name="VDModelo">Model</string>
+    <string name="VDTipoStock">Stock type</string>
+    <string name="VDEstado">State</string>
+
+    <!-- Hoja de ruta -->
+    <string name="title_activity_hojaruta"> Roadmap</string>
+    <string name="HREnviar">Send</string>
+    <string name="HRBuscar">Search Dispatches</string>
+    <string name="tvHRDia">Day:</string>
+    <string name="tvHRKmSalida">Km.Output:</string>
+    <string name="tvHRLugarS">Location output:</string>
+    <string name="tvHRKmLlegada">Km.Arrival:</string>
+    <string name="tvHRLugarL">Location arrival:</string>
+    <string name="tvHRConcepto">Concept:</string>
+    <string name="tvHRMatricula">Car Registration:</string>
+    <string name="tvHRImporte">Amount</string>
+    <string name="HRAdd">Add</string>
+    <string name="Concepto">Concept</string>
+    <string name="IMPORTEINCORRECTO">Data error amount. Please review it</string>
+    <string name="ELIJACONCEPTO">Please indicate concept for spending</string>
+    <string name="LSALIDA_OBLIGATORIO">You must choose output</string>
+    <string name="LLLEGADA_OBLIGATORIO">You must choose arrival</string>
+    <string name="CambioFecha">It has changed the day. This erases previous data had not been sent, You sure?</string>
+
+    <!-- Configuracion -->
+
+    <string name="title_activity_config">Configuration</string>
+    <string name="menu_config">Configuration</string>
+    <string name="PERIODO_SINCRONIZACION">Sync period</string>
+    <string name="NMAX_FOTOS">Maximum permissible photos</string>
+    <string name="IDIOMAS">Selected language</string>
+    <string name="UnidadNegocio">Business unit selected</string>
+    <string name="error_PERIODO_SINCRONIZACION">The synchronization period must understand values 5&#8211;30 inclusive.</string>
+    <string name="error_NMAX_FOTOS">The maximum number of photos should include values between 100 and 300 inclusive.</string>
+    <string name="email_title">E-mail:</string>
+    <string name="email_hint">Type e-mail</string>
+    <string name="telefono_title">Telephone:</string>
+    <string name="telefono_hint">Type telephone</string>
+
+    <!-- Partes - Order y filter -->
+    <string name="filter_by">Search by </string>
+    <string name="filter_Locality">Town/city</string>
+    <string name="filter_CP">Zip code</string>
+    <string name="filter_Trabajo">Occupation</string>
+    <string name="filter_Client">Customer</string>
+    <string name="filter_TiempoLimite">Deadline dd/mm</string>
+
+    <!-- Disclaimers -->
+    <string name="disclaimer_id_retired_material_repeated">Material Code Repeated</string>
+    <string name="disclaimer_select_Model">Please select the model to withdraw</string>
+    <string name="disclaimer_select_Communication">You must select a connection type</string>
+    <string name="Communitation">connection type</string>
+
+    <!-- Languages -->
+    <string name="Espanol">Spanish</string>
+    <string name="Ingles">English</string>
+    <string name="Portugues">Portuguese</string>
+
+    <!-- Others -->
+    <string name="calendar">Schedule</string>
+    <string name="EncuestaDinamica">Dinamic Quiz</string>
+    <string name="GrabarEcuensta">Record quiz</string>
+    <string name="RequiereObservaciones">Requires comments</string>
+    <string name="ObservacionesIncompleto">Please, it is necessary to fill the survey (including the required observations).</string>
+    <string name="Si">YES</string>
+    <string name="No">NO</string>
+    <string name="ComenzarCierre">Start close</string>
+    <string name="ActualizarTablas">Internal upgrade in progress \ nThis operation may take a few minutes</string>
+    <string name="ObsPredefinidas">Predefined comments</string>
+    <string name="IncidenciaPredefinidas">Predefined incidents</string>
+    <string name="Buscando_UN">Looking for business units …</string>
+    <string name="No_UN">No business units</string>
+
+    <!-- Antiguas -->
+    <string name="FinParteQuestion">Are you sure to finish the dispatch?</string>
+    <string name="ChooseResolucion">You must select a type of resolution</string>
+    <string name="StartParte">Are you sure to start the dispatch?</string>
+    <string name="ServeBusy">At this point you are accessing the server, you can not start the dispatch. Wait to finish communication to try again</string>
+    <string name="ManualUpdate">Throwing manual synchronization&#8230;</string>
+    <string name="Logout">Are you sure to log out?</string>
+    <string name="WarehouserUpdateError">Error receiving warehouse: </string>
+    <string name="ErrorCloseDispatch">The closure / shipping requires dispatcher information of the following fields: </string>
+    <string name="Calendario">Calendar</string>
+    <string name="CooperaNegocio">Does the business cooperates?</string>
+    <string name="CerrarParte">Should begin closing to send the part</string>
+
+    <!-- Nuevos mensajes para la nueva comunicación "enCamino" -->
+    <string name="StartEnCamino">At this moment sets out to attend this notice, please confirm</string>
+    <string name="AvisoAsignado">notification correctly performed</string>
+
+    <!-- ASL 03/07 -->
+    <string name="ValorHorarioContacto">Contact Schedule Value</string>
+    <string name="ValorComplemento">Complement Value</string>
+    <string name="ValorNombreRotulo">Label Name Value</string>
+    <string name="HorarioContacto">Contact Schedule</string>
+    <string name="EmailDetalleComercio">Email</string>
+    <string name="Complemento">Complement</string>
+    <string name="NombreRotulo">Label Name</string>
+    <string name="Telefonos">Telephones</string>
+    <string name="ValorEmail">Email Value</string>
+    <string name="filter_NumeroParte">Notification Num.</string>
+
+    <string name="SincronizacionEjecutada">Synchronization executed</string>
+    <string name="HayPartesNuevos">There are new parts</string>
+    <string name="TocaParaAccederApp">Touch to access the application</string>
+    <string name="AlmacenBEscaner">Scan</string>
+    <string name="AnadiGastos">Add expense</string>
+    <string name="BotonIncidencia">Incidents</string>
+    <string name="BotonLlamada">Call</string>
+    <string name="BotonTelefonos">Utility telephones</string>
+    <string name="PMistockAlmacen">My stock</string>
+    <string name="activity_Llamadas">Calls</string>
+    <string name="activity_enviar_foto">Send image</string>
+    <string name="activity_incidencias">Incidents</string>
+    <string name="aviso_descarga">It is using data connection instead of Wi-Fi. The document can occupy up to 30MB. do you wish to continue?</string>
+    <string name="avisos_sla">SLA Notices</string>
+    <string name="buscarDocumentos">Search for document title</string>
+    <string name="buscarMensajes">Search text in messages</string>
+    <string name="buscar_minimo">There is no word to search for&#8230;</string>
+    <string name="busqueda_aplicar_filtros">Apply filters</string>
+    <string name="busqueda_aplicar_ver_filtros">View filters</string>
+    <string name="busqueda_buscar">Search</string>
+    <string name="busqueda_editar_estados">Edit states</string>
+    <string name="busqueda_editar_estados_texto">Here you can change the status of the computers on which it is allowed.</string>
+    <string name="busqueda_escribir_numero_serie">Write a serial number</string>
+    <string name="busqueda_estados">Status</string>
+    <string name="busqueda_familia">Family</string>
+    <string name="busqueda_filtros">Filters</string>
+    <string name="busqueda_modelo">Model</string>
+    <string name="busqueda_no_hay">No results</string>
+    <string name="busqueda_no_tracking">No tracking</string>
+    <string name="busqueda_resultado">Total results:</string>
+    <string name="busqueda_tecnologia">Technology</string>
+    <string name="busqueda_todos">All&#8230;</string>
+    <string name="busqueda_total">Total</string>
+    <string name="busqueda_variante">Variant</string>
+    <string name="camera">Camera</string>
+    <string name="color_caducado">Expired part</string>
+    <string name="color_cuidado">Part that expires in less than 4 hours</string>
+    <string name="color_libre">Part in hour (greater than 4 hours)</string>
+    <string name="color_picker_default_title">Select a color</string>
+    <string name="colores">Colors</string>
+    <string name="calendarioAjustes">Sync appointments in my device\'s calendar</string>
+    <string name="colores_titulo">Here you can customize the colors of the work parts.</string>
+    <string name="confirmar">Confirm</string>
+    <string name="confirmar_envio">Are you sure you want to confirm the shipment?</string>
+    <string name="de">of</string>
+    <string name="descargado">Discharged</string>
+    <string name="descargando">Downloading document</string>
+    <string name="editar_estados1">Edit states</string>
+    <string name="editar_estados2">Edit status</string>
+    <string name="enviando">Sending&#8230;</string>
+    <string name="enviar_ficheros_log">Send LOG files</string>
+    <string name="enviar_ficheros_log_no">There are no files created.</string>
+    <string name="envio_no">ERROR when sending</string>
+    <string name="envio_ok">Submitted successfully</string>
+    <string name="equipos_seleccionados">Selected equipment</string>
+    <string name="equipos_seleccionados_no">No equipment selected</string>
+    <string name="filtros">Tags</string>
+    <string name="galery">Gallery</string>
+    <string name="gasto">Spending</string>
+    <string name="grupo_diusframi">Grupo Diusframi</string>
+    <string name="lista_gastos">List of expenses</string>
+    <string name="lista_gastos_no">You do not have expenses</string>
+    <string name="minutos2">min</string>
+    <string name="mostrar_agrupados1">Show notifications for grouped messages</string>
+    <string name="mostrar_agrupados2">Display grouped SLA compliance / notice notifications</string>
+    <string name="datos_de_contacto">Contact Data</string>
+    <string name="noHayDatos">There is no data.</string>
+    <string name="no_hay_partes">There are no parts</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="orion_mobile">Orion Mobile</string>
+    <string name="parte_en_curso">Part in progress</string>
+    <string name="parte_finalizado">Part completed</string>
+    <string name="parte_rechazado">Rejected part</string>
+    <string name="parte_trabajo">Part of work</string>
+    <string name="parte_visto">Part seen</string>
+    <string name="partes">Parts</string>
+    <string name="pref_config">Color Picker</string>
+    <string name="salida_almacen">*Warehouse</string>
+    <string name="salida_almacen_seleccionar">Choose&#8230;</string>
+    <string name="salida_aviso1">You have not selected any equipment. Please review the material list.</string>
+    <string name="salida_aviso2">You have not selected any stores. Please check the storage drop-down list.</string>
+    <string name="salida_aviso3">You have not selected any carriers. Please review the carrier drop-down list.</string>
+    <string name="salida_aviso3b"> Please select the carrier</string>
+    <string name="salida_boton1">Material Replaced / Uninstalled 06</string>
+    <string name="salida_boton2">Custom material</string>
+    <string name="salida_configura_envio">Set up your shipment</string>
+    <string name="salida_resumen_envio">Shipping Summary</string>
+    <string name="salida_texto">Press the buttons to generate new material outputs. \n\n<b>1)</b> In an automated way the equipment in the REPLACED / UNINSTALLED state 06. \n\n<b>2)</b> In a personalized way any equipment using the search engine, scanner and filters.</string>
+    <string name="salida_tracking">Tracking</string>
+    <string name="salida_tracking_opcional">(Optional) Tracking Number</string>
+    <string name="salida_transportista">Carrier*</string>
+    <string name="salida_transportista_seleccionar">Choose&#8230;</string>
+    <string name="seguridad">Security</string>
+    <string name="seleccionar_ficheros_log">Select the date of the LOG file</string>
+    <string name="seleccionar_origen_foto">Select photo from:</string>
+    <string name="siguiente">Following</string>
+    <string name="sistema">System</string>
+    <string name="tiposMensajes">Types of messages</string>
+    <string name="totales">total</string>
+    <string name="tvHRKm">Km</string>
+    <string name="tvHRTarjeta">Fuel card</string>
+    <string name="tvHRTarjetaDigitos">Fuel card</string>
+    <string name="verTodosDocumentos">PDF Documents</string>
+    <string name="verTodosMensajes">Messages</string>
+    <string-array name="tipo_mensajes">
+        <item>Message</item>
+        <item>Upgrade</item>
+        <item>Synchronization</item>
+        <item>New parts</item>
+        <item>SLA Notice</item>
+    </string-array>
+    <string name="enviando_log">Sending LOG</string>
+    <string name="no_hay_fotos">There are no photos associated with it.</string>
+    <string name="OK_VF">OK/VF</string>
+    <string name="no_hay_documentos">No documents</string>
+    <string name="no_hay_entradas">No arrivals</string>
+    <string name="no_hay_salidas">No departures</string>
+    <string name="no_tienes_mensajes">You have no messages</string>
+    <string name="no_tienes_partes">You do not have parts</string>
+    <string name="rechazados">Rejected</string>
+    <string name="recibidos">Received</string>
+    <string name="salidas">Departures</string>
+    <string name="vistos">Received</string>
+    <string name="documentos">Documents</string>
+    <string name="en_curso">In progress</string>
+    <string name="entradas">Arrivals</string>
+    <string name="mensajes">Messages</string>
+    <string name="cambio_estado_no_permitido">Change of status NOT ALLOWED</string>
+    <string name="tiempo_minimo">Please enter a minimum of 5 minutes</string>
+    <string name="BotonMyStock">My stock</string>
+    <string name="busqueda_dias1">%s Days\nin stock</string>
+    <string name="busqueda_motivo_devolucion">Reason for return</string>
+    <string name="busqueda_selecciona_obligatorio">Please review all the reasons for the return. It is mandatory to select an option.</string>
+    <string name="busqueda_selecciona_opcion">Select a reason&#8230;</string>
+    <string name="consultar_geminis">Click here to consult gemini</string>
+    <string name="load_material_data">Loading details&#8230;</string>
+    <string name="title_activity_detalle_material">Detail of material</string>
+    <string name="idioma_cambiado">Do you want to change the language of the application to</string>
+    <string name="desarrollo_activar">Development mode enabled</string>
+    <string name="desarrollo_desactivar">Development mode disabled</string>
+    <string name="desarrollo_modo">Development</string>
+    <string name="desarrollo_url">URL for development</string>
+    <string name="sector_actividad">Activity sector</string>
+    <string name="Modelo_asterisco">Models *</string>
+    <string name="Nombre_apellido">Name and surname</string>
+    <string name="accion_cierre">Action *</string>
+    <string name="agenda">Diary</string>
+    <string name="añadir_elemento">Add item</string>
+    <string name="añadir_equipo">Add equipment</string>
+    <string name="añadir_firma">Add signature</string>
+    <string name="cancel">Cancel</string>
+    <string name="cantidad_retirar">Number of items to be removed</string>
+    <string name="casuistica_actualizando">Updating casuistry tables. Please try again in a few minutes.</string>
+    <string name="casuistica_no_contemplada">Casuistry not contemplated. Please contact your delegation.</string>
+    <string name="casuistica_no_hay_acciones">There is no casuistry of actions. Please contact your delegation.</string>
+    <string name="cerrar_parte">Close part</string>
+    <string name="cierre_enviado_correctamente">The part has been closed properly.</string>
+    <string name="cierre_parte">Close part</string>
+    <string name="codido_cierre">Close code</string>
+    <string name="completa_arbol_cierre">Incomplete selection</string>
+    <string name="delete">Remove</string>
+    <string name="desea_eliminar_foto">Do you want to delete this photo?</string>
+    <string name="elementos_retirados">Items withdrawn:</string>
+    <string name="elements_removed">Items withdrawn:</string>
+    <string name="equipment_instaled">Installed equipment:</string>
+    <string name="equipment_installed">Installed Components:</string>
+    <string name="equipment_model">Model to be removed:</string>
+    <string name="equipment_removed">Equipment removed:</string>
+    <string name="error_cerrando_parte">Failed to send part</string>
+    <string name="situacion_cierre_parte">Part closed correctly with status <b>%1$s</b></string>
+    <string name="escribe_comentario">Write a comment</string>
+    <string name="estado_codigo_cierre">State *</string>
+    <string name="fecha">Date *</string>
+    <string name="firma">Signature</string>
+    <string name="has_instalado_elemento">Have you installed any items?</string>
+    <string name="has_instalado_equipo">Have you installed any equipment?</string>
+    <string name="has_retirado_elemento">Have you removed any items?</string>
+    <string name="has_retirado_equipo">Have you removed any equipment?</string>
+    <string name="hora">Hour *</string>
+    <string name="imagenes_obligatorias">Compulsory Images</string>
+    <string name="imagenes">Images</string>
+    <string name="imagenes_opcionales">Additional images</string>
+    <string name="informacion_parte">Part Information</string>
+    <string name="longitud_minima">Characters</string>
+    <string name="mas_imagenes">You can add more images by the side.</string>
+    <string name="model">Model:</string>
+    <string name="model_not_found">Model not found</string>
+    <string name="no_elemento_seleccionado">Select a model</string>
+    <string name="no_hay_casuisticas">No casuísticas contemplated</string>
+    <string name="no_selection">No selection</string>
+    <string name="no_tienes_elementos_instalados">You have no items installed.</string>
+    <string name="no_tienes_elementos_retirados">You have no items removed.</string>
+    <string name="no_tienes_equipos_instalados">You do not have any computers installed.</string>
+    <string name="no_tienes_equipos_retirados">You do not have any equipment removed.</string>
+    <string name="num_documento">Document number</string>
+    <string name="email_cierre">Send Copy to Commerce</string>
+    <string name="email_cierre_et">Commerce email</string>
+    <string name="numero_serie_no_equipo">You do not have equipment for this serial number.</string>
+    <string name="observaciones">Observations</string>
+    <string name="particularidad_cierre">Particularity *</string>
+    <string name="previous">Previous</string>
+    <string name="proxima_visita">Complete the data for the next visit</string>
+    <string name="quieres_enviar_parte">Are you sure you want to send the part?</string>
+    <string name="revisa_datos">Review the closing summary before sending it.</string>
+    <string name="select_action">Select an action&#8230;</string>
+    <string name="select_document_type">Select document type&#8230;</string>
+    <string name="select_particularity">Select particularity&#8230;</string>
+    <string name="select_serial_number">Select serial number&#8230;</string>
+    <string name="select_some_elements">Select one or more items</string>
+    <string name="select_some_equipment">Select one or more computers</string>
+    <string name="select_state">Select a type&#8230;</string>
+    <string name="select_code0">Select a code…</string>
+    <string name="select_subcode3">Select a subcode…</string>
+    <string name="serial_number_asterisco">Serial number *</string>
+    <string name="situacion">Situation</string>
+    <string name="step_1">STEP 1: Withdrawal of equipment</string>
+    <string name="step_2">STEP 2: Withdrawal of elements</string>
+    <string name="step_4">STEP 4: Installing Equipment</string>
+    <string name="step_5">STEP 5: Installing Elements</string>
+    <string name="step_7">STEP 7: Close Code</string>
+    <string name="step_8_1">STEP 8: Documentation (1/8)</string>
+    <string name="step_8_2">STEP 8: Documentation (2/8)</string>
+    <string name="step_8_3">STEP 8: Documentation (3/8)</string>
+    <string name="step_8_4">STEP 8: Documentation (4/8)</string>
+    <string name="step_8_5">STEP 8: Documentation (5/8)</string>
+    <string name="step_8_6">STEP 8: Documentation (6/8)</string>
+    <string name="step_8_7">STEP 8: Documentation (7/8)</string>
+    <string name="step_8_8">STEP 8: Documentation (8/8)</string>
+    <string name="step_9">STEP 9: Confirmation</string>
+    <string name="communicationType">Type of communication</string>
+    <string name="tipoDocumento">"Document Type "</string>
+    <string name="ver_parte">See part</string>
+
+    <!--New Work Report Activity-->
+    <!-- dalonso 09/01/2018 -->
+    <string name="new_work_report_activity_title">Parts of work</string>
+    <string name="menuAlmacenRecuperandoStock">Retrieving stock&#8230;.</string>
+    <string name="select_client">Select a customer</string>
+    <string name="select_commerce">Select a commerce</string>
+    <string name="searchCommerce">Search commerce</string>
+    <string name="busqueda">Results:</string>
+    <string name="empty_commerce">No commerce has been found</string>
+    <string name="load_commerce">Loading commerce&#8230;</string>
+    <string name="workreport_data">Data part</string>
+    <string name="client_newworkreport">Client *</string>
+    <string name="commerce_newworkreport">Commerce *</string>
+    <string name="work_newworkreport">Work *</string>
+    <string name="technical_newworkreport">Technical *</string>
+    <string name="data_newworkreport">Date / Time creation *</string>
+    <string name="continue_newworkreport">continue</string>
+    <string name="send_workreport">Send part of work</string>
+    <string name="work_data">Work data</string>
+    <string name="client_reference">Customer reference (request the customer)</string>
+    <string name="incidence">Incidence  *</string>
+    <string name="observations">Observations</string>
+    <string name="commerce_equipment">Equipment in commerce</string>
+    <string name="serial_number">Serial</string>
+    <string name="complementary_data">Supplementary data</string>
+    <string name="select_error_code">Select an incidence</string>
+    <string name="select_model">Select a model</string>
+    <string name="newworkreport_sended">PART SENT!</string>
+    <string name="newworkreport_close_ask">Do you want to start closing the part?</string>
+    <string name="send_to">"Send to "</string>
+    <string name="no_network_error">The shipment has not been made correctly. You can try again after a few seconds</string>
+    <string name="work_exist_error">¡Attention!\\nThere is already an open part with this work</string>
+    <string name="try_again">RESEND</string>
+    <string name="without_connection">"Without signal "</string>
+    <string name="error">ERROR</string>
+    <string name="Mexican">Mexican</string>
+    <string name="new_work_text">PARTS OF WORKS</string>
+    <string name="select_work">Select a work</string>
+    <string name="particularities">Particularities</string>
+    <string name="csb">CSB</string>
+    <string name="concesion">Concesion</string>
+    <string name="office">Office</string>
+    <string name="horario_tienda">Schedule</string>
+    <string name="rotulo">Title</string>
+    <string name="contact_schedule">Contact schedule</string>
+    <string name="commerce_detail">Commerce detail</string>
+    <string name="company">Company</string>
+    <string name="equip_to_install">equipment to install</string>
+    <string name="busqueda_no_hay_transportista">There is no transporter</string>
+    <string name="generic_error">System error</string>
+    <string name="hora_limite">time limit</string>
+    <string name="en">in</string>
+    <string name="filter_serialNumber">Serial number</string>
+    <string name="info">info</string>
+    <string name="characters">charac.</string>
+    <string name="PNuHistorioSalidasAlmacen">My shipments</string>
+    <string name="PNlastshiptments">Last shipments</string>
+    <string name="newshipment">New shipment</string>
+    <string name="noshipmentsavalible">No shipments information avalible</string>
+    <string name="sentArticles">Sent items</string>
+    <string name="ship_date">Ship date</string>
+    <string name="status_albaran">Delivery note status</string>
+    <string name="empty_sent_articles">No sent items information avalible</string>
+    <string name="save">Save</string>
+    <string name="no_transporter">No carrier</string>
+    <string name="no_tracking">No racking</string>
+    <string name="data_without_saving">You have changes without saving, are you sure you want to exit?</string>
+    <string name="sure_to_save_changes">Are you sure you want to save the changes?</string>
+    <string name="try_again_error">Error sending the part, please try again.</string>
+    <string name="download_models">It is not possible to start the closing of the part, it is necessary to update the models. Please, contact support.</string>
+    <string name="error_cierre_parte">This part has been closed manually and there is no data for assisted closing.</string>
+
+    <string name="config_casuisticas_versions">Casuistics versions</string>
+    <string name="config_casuisticas_actions">Cas. Actions</string>
+    <string name="config_casuisticas_materials">Cas. Materials</string>
+    <string name="request_permission">All permissions are required for a good performance</string>
+    <string name="settings">Settings</string>
+    <string name="required_permissions_title">Permissions required</string>
+    <string name="required_permissions_message">It\'s mandatory to enable all permissions in order to be able to close a part</string>
+    <string name="config_casuisticas_tpv_models">POS Models</string>
+    <string name="contact_data_title">Modify contact data</string>
+    <string name="contact_data_email_message">Do you want to modify your email address from %1$s to %2$s?</string>
+    <string name="contact_data_phone_message">Do you want to modify your contact number from %1$s to %2$s?</string>
+    <string name="contact_data_updating">Updating contact data&#8230;</string>
+    <string name="contact_data_successfully_save">You have successfully updated your contact data</string>
+    <string name="categoria">Category</string>
+    <string name="productos_asociados">Associated products</string>
+    <string name="productos_no_asociados">This product doesn\'t have associates</string>
+    <string name="info_consumibles">Consumable automatically added for being part of the product with %s serial number, model %s of %s</string>
+    <string name="discrepancia_stock">Equipment must be sent COMPLETE within all its consumables, but none has been added due to lack of STOCK. Discrepancy will be registered.</string>
+    <string name="productos_relacionados_format">Related products %s</string>
+    <string name="productos_seleccionados_no">No products selected</string>
+    <string name="productos_seleccionado_format">Selected products %s</string>
+    <string name="consumibles_added">Selected consumables</string>
+    <string name="no_consumibles_added">No consumables selected</string>
+    <string name="partes_finalizados">Finished parts</string>
+    <string name="DetalleCierre">Closing details</string>
+    <string name="contact_data_error_invalid_phone">Phone number format not valid</string>
+    <string name="quantity">Quantity</string>
+    <string name="importar">Import</string>
+    <string name="obligatorio">Required</string>
+    <string name="importar_numero_serie">Import serial number</string>
+    <string name="equipo_importado_correctamente">Equipment successfully imported</string>
+    <string name="error_conexion_servidor">Connection error with the server</string>
+    <string name="relleno">Filling</string>
+    <string name="relleno_origen">Origin fill</string>
+    <string name="agendar_cita">Schedule appointment on my device</string>
+    <string name="error_importar">Error importing serial number</string>
+    <string name="equipo_encontrado">Equipment found:\n\t\tModel: [%s] %s (%s)\n\t\tTechnician: [%s] %s\n\nConfirm import?</string>
+
+</resources>

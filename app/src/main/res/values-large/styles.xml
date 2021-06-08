@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="spinner_selected_blue_style" parent="android:Widget.ListView.DropDown">
+        <item name="android:background">@color/azul</item>
+        <item name="android:textColor">@color/light_orange</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+</resources>

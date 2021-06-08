@@ -1,0 +1,2 @@
+include ':app', ':DataCollectionLib'
+rootProject.name = "Orion Logistics Mobile"
